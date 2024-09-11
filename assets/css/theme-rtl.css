@@ -77,10 +77,10 @@
   --aranyak-dark-border-subtle: #9da9bb;
   --aranyak-white-rgb: 255, 255, 255;
   --aranyak-black-rgb: 0, 0, 0;
-  --aranyak-font-sans-serif: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --aranyak-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --aranyak-font-sans-serif: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --aranyak-font-monospace: "Fredoka", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --aranyak-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
-  --aranyak-body-font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --aranyak-body-font-family: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --aranyak-body-font-size: 1rem;
   --aranyak-body-font-weight: 400;
   --aranyak-body-line-height: 1.5;
@@ -228,7 +228,7 @@
   --aranyak-blockquote-footer-color: #748194;
   --aranyak-hr-opacity: 1;
   --aranyak-mark-bg: #fcf8e3;
-  --aranyak-font-base: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --aranyak-font-base: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --aranyak-btn-disabled-border-color: transparent;
   --aranyak-btn-reveal-color: #748194;
   --aranyak-btn-reveal-hover-color: #5e6e82;
@@ -7132,7 +7132,7 @@ textarea.form-control-lg {
   z-index: var(--aranyak-tooltip-zindex);
   display: block;
   margin: var(--aranyak-tooltip-margin);
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -7234,7 +7234,7 @@ textarea.form-control-lg {
   z-index: var(--aranyak-popover-zindex);
   display: block;
   max-width: var(--aranyak-popover-max-width);
-  font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
