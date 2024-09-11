@@ -64,10 +64,6 @@ mixin Navbar
         span.navbar-toggler-icon
       div#navbarSupportedContent.collapse.navbar-collapse(data-navbar-collapse)
         .container.d-lg-flex.justify-content-lg-end.pe-lg-0.w-lg-100
-          form.form-inline.position-relative.w-lg-50.ms-lg-4.ms-xl-9.mt-3.mt-lg-0(onsubmit="return false;")
-            input(type="search", name="search" placeholder="search plants...").search.fs-8.bg-transparent.form-control
-            .search-icon 
-                span.uil.uil-search
           ul.navbar-nav.mt-2.mt-lg-1.ms-lg-4.ms-xl-8.ms-2xl-9.gap-lg-x1(data-navbar-nav) 
             each navMenu in menu 
                 li.nav-item 
