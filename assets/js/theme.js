@@ -458,8 +458,8 @@ var navbarInit = function navbarInit() {
         opacity = 1 - alpha * 0.5;
         blur = alpha * 10;
       }
-      navbar.style.backgroundColor = "rgba(255, 218, 145, ".concat(opacity, ")");
-      navbarContainer.style.backgroundColor = "rgba(255, 218, 145, ".concat(opacity, ")");
+      navbar.style.backgroundColor = "rgba(153, 98, 235, ".concat(opacity, ")");
+      navbarContainer.style.backgroundColor = "rgba(153, 98, 235, ".concat(opacity, ")");
       navbar.style.backdropFilter = "blur(".concat(blur, "px)");
       navbarContainer.style.backdropFilter = "blur(".concat(blur, "px)");
     };
