@@ -1,5 +1,8 @@
 Struktur
-- radparade
-- petition
-- radfahren in voels
+- radparade (sub)
+- petition (sub)
+- radfahren in voels (sub)
 - stammtisch
+- (later) news
+- kontakt 
+- impressum

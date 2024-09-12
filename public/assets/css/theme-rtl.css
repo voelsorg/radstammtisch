@@ -78,7 +78,7 @@
   --aranyak-white-rgb: 255, 255, 255;
   --aranyak-black-rgb: 0, 0, 0;
   --aranyak-font-sans-serif: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --aranyak-font-monospace: "Fredoka", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --aranyak-font-monospace: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --aranyak-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --aranyak-body-font-family: "Fredoka", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --aranyak-body-font-size: 1rem;
