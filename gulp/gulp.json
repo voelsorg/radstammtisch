@@ -27,14 +27,8 @@
     "src": {
       "all": "src/pug/**/*.pug",
       "pages": [
-        "*.pug",
-        "app/**/*.pug",
-        "authentication/**/*.pug",
-        "dashboard/**/*.pug",
-        "demo/**/*.pug",
-        "documentation/**/*.pug",
-        "modules/**/*.pug",
-        "pages/**/*.pug"
+        "index.pug",
+        "pages/*.pug"
       ]
     },
     "dest": ""
@@ -56,5 +50,5 @@
       "vendors.json"
     ]
   },
-  "watch": ["assets/img", "assets/data", "assets/video", "vendors"]
+  "watch": ["assets/img", "assets/data", "assets/video", "vendors", "src"]
 }
