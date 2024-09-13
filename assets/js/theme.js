@@ -527,13 +527,17 @@ var swiperInit = function swiperInit() {
   });
 };
 
+// import formValidationInit from './form-validation';
+// import swiperInit from './swiper';
+// import countupInit from './countup';
+
 /* -------------------------------------------------------------------------- */
 /*                            Theme Initialization                            */
 /* -------------------------------------------------------------------------- */
 docReady(detectorInit);
 docReady(navbarInit);
-docReady(formValidationInit);
-docReady(swiperInit);
-docReady(countupInit);
+// docReady(formValidationInit);
+// docReady(swiperInit);
+// docReady(countupInit);
 docReady(scrollToTopInit);
 //# sourceMappingURL=theme.js.map
