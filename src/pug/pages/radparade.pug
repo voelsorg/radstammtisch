@@ -1,11 +1,5 @@
 extends ../layouts/LayoutTheme
 
-prepend styles
-    link(rel="stylesheet", href=`${CWD}vendors/swiper/swiper-bundle.min.css`)
-
-prepend scripts 
-    script(src=`${CWD}vendors/swiper/swiper-bundle.min.js`)
-
 
 append content 
     .container(data-bs-target="#navbar-top" data-bs-spy="scroll" tabindex="0")
