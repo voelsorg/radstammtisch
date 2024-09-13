@@ -1,3 +1,8 @@
-# Radstammtisch Völs
-
-Webseite des Radstammtisch Völs auf GH Pages.
+Struktur
+- radparade (sub)
+- petition (sub)
+- radfahren in voels (sub)
+- stammtisch
+- (later) news
+- kontakt 
+- impressum
