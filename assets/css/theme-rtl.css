@@ -3046,14 +3046,12 @@ progress {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3119,14 +3117,12 @@ progress {
   border-radius: 0;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-control::file-selector-button {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3235,14 +3231,12 @@ textarea.form-control-lg {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-select {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3376,13 +3370,11 @@ textarea.form-control-lg {
   background-position: right center;
   border-radius: 2em;
   -webkit-transition: background-position 0.15s ease-in-out;
-  -o-transition: background-position 0.15s ease-in-out;
   transition: background-position 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-switch .form-check-input {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3541,7 +3533,6 @@ textarea.form-control-lg {
   padding: 1rem 1rem;
   overflow: hidden;
   text-align: start;
-  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
   pointer-events: none;
@@ -3551,14 +3542,12 @@ textarea.form-control-lg {
   transform-origin: 100% 0;
   -webkit-transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
   transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out, -webkit-transform 0.1s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .form-floating > label {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -3995,14 +3984,12 @@ textarea.form-control-lg {
   box-shadow: var(--aranyak-btn-box-shadow);
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4365,13 +4352,11 @@ textarea.form-control-lg {
 
 .fade {
   -webkit-transition: opacity 0.15s linear;
-  -o-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 @media (prefers-reduced-motion: reduce) {
   .fade {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4387,13 +4372,11 @@ textarea.form-control-lg {
   height: 0;
   overflow: hidden;
   -webkit-transition: height 0.35s ease;
-  -o-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .collapsing {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4401,13 +4384,11 @@ textarea.form-control-lg {
   width: 0;
   height: auto;
   -webkit-transition: width 0.35s ease;
-  -o-transition: width 0.35s ease;
   transition: width 0.35s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .collapsing.collapse-horizontal {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -4882,13 +4863,11 @@ textarea.form-control-lg {
   background: none;
   border: 0;
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5127,13 +5106,11 @@ textarea.form-control-lg {
   border: var(--aranyak-border-width) solid var(--aranyak-navbar-toggler-border-color);
   border-radius: var(--aranyak-navbar-toggler-border-radius);
   -webkit-transition: var(--aranyak-navbar-toggler-transition);
-  -o-transition: var(--aranyak-navbar-toggler-transition);
   transition: var(--aranyak-navbar-toggler-transition);
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5214,7 +5191,6 @@ textarea.form-control-lg {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-sm .offcanvas .offcanvas-header {
@@ -5282,7 +5258,6 @@ textarea.form-control-lg {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-md .offcanvas .offcanvas-header {
@@ -5350,7 +5325,6 @@ textarea.form-control-lg {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-lg .offcanvas .offcanvas-header {
@@ -5418,7 +5392,6 @@ textarea.form-control-lg {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-xl .offcanvas .offcanvas-header {
@@ -5486,7 +5459,6 @@ textarea.form-control-lg {
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
   .navbar-expand-xxl .offcanvas .offcanvas-header {
@@ -5553,7 +5525,6 @@ textarea.form-control-lg {
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-transition: none;
-  -o-transition: none;
   transition: none;
 }
 .navbar-expand .offcanvas .offcanvas-header {
@@ -5835,13 +5806,11 @@ textarea.form-control-lg {
   border-radius: 0;
   overflow-anchor: none;
   -webkit-transition: var(--aranyak-accordion-transition);
-  -o-transition: var(--aranyak-accordion-transition);
   transition: var(--aranyak-accordion-transition);
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -5868,13 +5837,11 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-size: var(--aranyak-accordion-btn-icon-width);
   -webkit-transition: var(--aranyak-accordion-btn-icon-transition);
-  -o-transition: var(--aranyak-accordion-btn-icon-transition);
   transition: var(--aranyak-accordion-btn-icon-transition);
 }
 @media (prefers-reduced-motion: reduce) {
   .accordion-button::after {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -6022,14 +5989,12 @@ textarea.form-control-lg {
   border: var(--aranyak-pagination-border-width) solid var(--aranyak-pagination-border-color);
   -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
-  -o-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .page-link {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -6259,19 +6224,16 @@ textarea.form-control-lg {
   white-space: nowrap;
   background-color: var(--aranyak-progress-bar-bg);
   -webkit-transition: var(--aranyak-progress-bar-transition);
-  -o-transition: var(--aranyak-progress-bar-transition);
   transition: var(--aranyak-progress-bar-transition);
 }
 @media (prefers-reduced-motion: reduce) {
   .progress-bar {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
 
 .progress-bar-striped {
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: var(--aranyak-progress-height) var(--aranyak-progress-height);
 }
@@ -6827,7 +6789,6 @@ textarea.form-control-lg {
 .modal.fade .modal-dialog {
   -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
-  -o-transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
   -webkit-transform: translate(0, -50px);
@@ -6837,7 +6798,6 @@ textarea.form-control-lg {
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7390,14 +7350,12 @@ textarea.form-control-lg {
   backface-visibility: hidden;
   -webkit-transition: -webkit-transform 0.8s ease-in-out;
   transition: -webkit-transform 0.8s ease-in-out;
-  -o-transition: transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out;
   transition: transform 0.8s ease-in-out, -webkit-transform 0.8s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7425,7 +7383,6 @@ textarea.form-control-lg {
 .carousel-fade .carousel-item {
   opacity: 0;
   -webkit-transition-property: opacity;
-  -o-transition-property: opacity;
   transition-property: opacity;
   -webkit-transform: none;
   -ms-transform: none;
@@ -7442,14 +7399,12 @@ textarea.form-control-lg {
   z-index: 0;
   opacity: 0;
   -webkit-transition: opacity 0s 0.8s;
-  -o-transition: opacity 0s 0.8s;
   transition: opacity 0s 0.8s;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
   .carousel-fade .active.carousel-item-end {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7477,14 +7432,12 @@ textarea.form-control-lg {
   border: 0;
   opacity: 0.5;
   -webkit-transition: opacity 0.15s ease;
-  -o-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-control-prev,
   .carousel-control-next {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7559,13 +7512,11 @@ textarea.form-control-lg {
   border-bottom: 10px solid transparent;
   opacity: 0.5;
   -webkit-transition: opacity 0.6s ease;
-  -o-transition: opacity 0.6s ease;
   transition: opacity 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators [data-bs-target] {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7730,14 +7681,12 @@ textarea.form-control-lg {
     -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
     box-shadow: var(--aranyak-offcanvas-box-shadow);
     -webkit-transition: var(--aranyak-offcanvas-transition);
-    -o-transition: var(--aranyak-offcanvas-transition);
     transition: var(--aranyak-offcanvas-transition);
   }
 }
 @media (max-width: 575.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-sm {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7833,14 +7782,12 @@ textarea.form-control-lg {
     -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
     box-shadow: var(--aranyak-offcanvas-box-shadow);
     -webkit-transition: var(--aranyak-offcanvas-transition);
-    -o-transition: var(--aranyak-offcanvas-transition);
     transition: var(--aranyak-offcanvas-transition);
   }
 }
 @media (max-width: 767.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-md {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -7936,14 +7883,12 @@ textarea.form-control-lg {
     -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
     box-shadow: var(--aranyak-offcanvas-box-shadow);
     -webkit-transition: var(--aranyak-offcanvas-transition);
-    -o-transition: var(--aranyak-offcanvas-transition);
     transition: var(--aranyak-offcanvas-transition);
   }
 }
 @media (max-width: 991.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-lg {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8039,14 +7984,12 @@ textarea.form-control-lg {
     -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
     box-shadow: var(--aranyak-offcanvas-box-shadow);
     -webkit-transition: var(--aranyak-offcanvas-transition);
-    -o-transition: var(--aranyak-offcanvas-transition);
     transition: var(--aranyak-offcanvas-transition);
   }
 }
 @media (max-width: 1199.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xl {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8142,14 +8085,12 @@ textarea.form-control-lg {
     -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
     box-shadow: var(--aranyak-offcanvas-box-shadow);
     -webkit-transition: var(--aranyak-offcanvas-transition);
-    -o-transition: var(--aranyak-offcanvas-transition);
     transition: var(--aranyak-offcanvas-transition);
   }
 }
 @media (max-width: 1539.98px) and (prefers-reduced-motion: reduce) {
   .offcanvas-xxl {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8244,13 +8185,11 @@ textarea.form-control-lg {
   -webkit-box-shadow: var(--aranyak-offcanvas-box-shadow);
   box-shadow: var(--aranyak-offcanvas-box-shadow);
   -webkit-transition: var(--aranyak-offcanvas-transition);
-  -o-transition: var(--aranyak-offcanvas-transition);
   transition: var(--aranyak-offcanvas-transition);
 }
 @media (prefers-reduced-motion: reduce) {
   .offcanvas {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8585,13 +8524,11 @@ textarea.form-control-lg {
   height: 1em;
   fill: currentcolor;
   -webkit-transition: 0.2s ease-in-out transform;
-  -o-transition: 0.2s ease-in-out transform;
   transition: 0.2s ease-in-out transform;
 }
 @media (prefers-reduced-motion: reduce) {
   .icon-link > .bi {
     -webkit-transition: none;
-    -o-transition: none;
     transition: none;
   }
 }
@@ -8780,7 +8717,6 @@ textarea.form-control-lg {
 
 .text-truncate {
   overflow: hidden;
-  -o-text-overflow: ellipsis;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
@@ -11888,13 +11824,11 @@ textarea.form-control-lg {
 
 .transition-base {
   -webkit-transition: all 0.2s ease-in-out !important;
-  -o-transition: all 0.2s ease-in-out !important;
   transition: all 0.2s ease-in-out !important;
 }
 
 .transition-none {
   -webkit-transition: none !important;
-  -o-transition: none !important;
   transition: none !important;
 }
 
@@ -21458,7 +21392,6 @@ h5, .h5 {
 
 .btn-gradient {
   border-radius: 40px;
-  background: -o-linear-gradient(-357deg, #85C7B3 -18.71%, #265C4C 117.68%);
   background: linear-gradient(-93deg, #85C7B3 -18.71%, #265C4C 117.68%);
   background-size: 100%;
   color: #fff;
@@ -21480,7 +21413,6 @@ h5, .h5 {
   box-shadow: none !important;
   border: none !important;
   -webkit-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
   z-index: 100;
 }
@@ -21496,7 +21428,6 @@ h5, .h5 {
   left: 0;
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
   transition: opacity 0.3s ease-in;
   z-index: -100;
 }
@@ -21543,7 +21474,6 @@ h5, .h5 {
   background-color: rgba(255, 218, 145, 0.7);
   border-radius: 50%;
   -webkit-transition: background-color 0.2s ease-in;
-  -o-transition: background-color 0.2s ease-in;
   transition: background-color 0.2s ease-in;
   z-index: 1120;
 }
@@ -21599,7 +21529,6 @@ h5, .h5 {
 
 .collapsed .collapse-icon {
   -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-transform: rotate(0deg);
   -ms-transform: rotate(0deg);
@@ -21608,7 +21537,6 @@ h5, .h5 {
 
 .collapse-icon {
   -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
@@ -21913,7 +21841,6 @@ h5, .h5 {
 }
 
 .showcase-page-gradient {
-  background: -o-linear-gradient(-92.3deg, #024787 -88.88%, rgba(0, 79, 197, 0) 27.93%);
   background: linear-gradient(-357.7deg, #024787 -88.88%, rgba(0, 79, 197, 0) 27.93%);
 }
 
@@ -22340,7 +22267,6 @@ h5, .h5 {
 .submenu {
   color: #124838 !important;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .submenu:hover, .submenu:focus, .submenu:active {
@@ -22477,7 +22403,6 @@ h5, .h5 {
 -----------------------------------------------*/
 .text-gradient {
   background: -webkit-gradient(linear, right top, right bottom, color-stop(61.46%, #86971C), to(#124838));
-  background: -o-linear-gradient(top, #86971C 61.46%, #124838 100%);
   background: linear-gradient(-180deg, #86971C 61.46%, #124838 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -22559,7 +22484,6 @@ h5, .h5 {
   border: 2px solid transparent;
   overflow: hidden !important;
   -webkit-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 .product-card .product-card-top {
@@ -22667,7 +22591,6 @@ h5, .h5 {
   font-weight: 700;
   color: #124838;
   -webkit-transition: opacity 0.3s ease-in-out;
-  -o-transition: opacity 0.3s ease-in-out;
   transition: opacity 0.3s ease-in-out;
 }
 .slider-nav .prev-button span, .slider-nav .next-button span {
@@ -22725,7 +22648,6 @@ h5, .h5 {
   overflow: hidden;
   border-radius: 25px;
   -webkit-transition: border-color 0.2s ease-in-out;
-  -o-transition: border-color 0.2s ease-in-out;
   transition: border-color 0.2s ease-in-out;
 }
 .blog-card .blog-card-top {
@@ -22766,7 +22688,6 @@ h5, .h5 {
 .blog-card .read-more {
   color: #124838;
   -webkit-transition: color 0.3s ease-in-out;
-  -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 .blog-card .read-more:hover, .blog-card .read-more:focus, .blog-card .read-more:active {
@@ -22797,7 +22718,6 @@ a:hover, a:focus {
   align-items: center;
   border-radius: 50% !important;
   -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border: 2px solid transparent;
   z-index: 1000 !important;
